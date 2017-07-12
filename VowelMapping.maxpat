@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 296.0, 241.0, 1087.0, 682.0 ],
+		"rect" : [ 268.0, 101.0, 1087.0, 682.0 ],
 		"bgcolor" : [ 0.14902, 0.14902, 0.14902, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
@@ -257,21 +258,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 896.131592, 349.0, 95.0, 20.0 ],
 					"text" : "scale 0. 1. 0.5 2.2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Calibri",
-					"fontsize" : 11.0,
-					"frgb" : 0.0,
-					"id" : "obj-17",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 201.75, 500.596497, 166.0, 33.0 ],
-					"text" : "Vowel backness\n0, 1, 2, 3 are the canonic vowels"
 				}
 
 			}
@@ -546,21 +532,6 @@
 				"box" : 				{
 					"fontname" : "Calibri",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
-					"id" : "obj-182",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 55.75, 500.596497, 146.0, 33.0 ],
-					"text" : "Vowel height\n0, 1, 2 are the canonic vowels"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Calibri",
-					"fontsize" : 11.0,
 					"id" : "obj-173",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -637,7 +608,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.75, 482.596497, 40.0, 20.0 ],
+					"patching_rect" : [ 201.75, 588.75, 40.0, 20.0 ],
 					"text" : "s CD-V"
 				}
 
@@ -963,7 +934,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.75, 480.596497, 40.0, 20.0 ],
+					"patching_rect" : [ 55.75, 588.75, 40.0, 20.0 ],
 					"text" : "s CD-H"
 				}
 
