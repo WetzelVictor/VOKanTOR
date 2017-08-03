@@ -45,7 +45,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 29.0, 69.0, 1096.0, 761.0 ],
+						"rect" : [ 29.0, 93.0, 1096.0, 737.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -64,6 +64,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -205,13 +206,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-6",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 385.0, 271.0, 273.0, 31.0 ],
-									"text" : "compile \"/Users/victor/Google Drive/stage-m1/VOKanTOR/toolboxJS/toolbox.js\""
+									"patching_rect" : [ 385.0, 271.0, 175.0, 18.0 ],
+									"text" : "compile .../toolboxJS/toolbox.js"
 								}
 
 							}
@@ -334,16 +334,6 @@
 									"hidden" : 0,
 									"midpoints" : [ 394.5, 260.0, 394.5, 260.0 ],
 									"source" : [ "obj-36", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 394.5, 392.0, 93.5, 392.0 ],
-									"source" : [ "obj-6", 0 ]
 								}
 
 							}
